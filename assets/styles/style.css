@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 110%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  font-weight: 400;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.808), black),
+  url(../images/background.jpg);
+  background-size: cover;
+}
+
+#display {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  width: 300px;
+  padding: 10px 5px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.displayHS {
+  min-height: 60PX;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.shakehands {
+  width: 150px;
+  float: center;
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  background: rgb(0, 224, 0);
+  color: white;
+  border-radius: 5px;
+  border: 3px solid white;
+  font-size: 20px;
+  display: none;
+}
+
+.shakehands:hover {
+  background-color: rgba(9, 141, 15, 0.658);
+}
